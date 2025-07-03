@@ -1,16 +1,32 @@
-## Hi there 👋
+```java
+package muhammadwaleed;
 
-<!--
-**MuhamWaleed/MuhamWaleed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import professional.SoftwareEngineer;
 
-Here are some ideas to get you started:
+public class Bio extends SoftwareEngineer {
+    String name = "Muhammad Waleed";
+    String title = "Computer Scientist";
+    String university = "Milwaukee School of Engineering";
+    String location = "Milwaukee, Wisconsin";
+    String uptime = "21 yrs 4 months 18 days";
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+public class CurrentlyLearning extends SoftwareEngineer {
+    String[] topics = {"Java", "Red Hat"};
+}
+
+public class Skills extends SoftwareEngineer {
+    String[] tech = {"Java", "Git", "Linux", "OOP"};
+}
+
+public class Goals extends SoftwareEngineer {
+    String[] items = {
+        "Earn RHCSA Certification (Aug 2025)",
+        "Get a Linux Admin or Software Dev Internship"
+    };
+}
+
+public class Contact extends SoftwareEngineer {
+    String email = "muhamwaleed7@gmail.com";
+    String linkedIn = "linkedin.com/in/muhammad-waleed-828559289";
+}
