@@ -1,8 +1,6 @@
 ```java
 package muhammadwaleed;
 
-import professional.SoftwareEngineer;
-
 public class Bio extends SoftwareEngineer {
     String name = "Muhammad Waleed";
     String title = "Computer Scientist";
